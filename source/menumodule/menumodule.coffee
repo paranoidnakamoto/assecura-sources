@@ -1,8 +1,8 @@
-burgermenumodule = {name: "burgermenumodule"}
+menumodule = {name: "menumodule"}
 ############################################################
 #region printLogFunctions
 log = (arg) ->
-    if allModules.debugmodule.modulesToDebug["burgermenumodule"]?  then console.log "[burgermenumodule]: " + arg
+    if allModules.debugmodule.modulesToDebug["menumodule"]?  then console.log "[menumodule]: " + arg
     return
 ostr = (obj) -> JSON.stringify(obj, null, 4)
 olog = (obj) -> log "\n" + ostr(obj)
@@ -10,8 +10,8 @@ print = (arg) -> console.log(arg)
 #endregion
 
 ############################################################
-burgermenumodule.initialize = () ->
-    log "burgermenumodule.initialize"
+menumodule.initialize = () ->
+    log "menumodule.initialize"
     return
     
-module.exports = burgermenumodule
+module.exports = menumodule
