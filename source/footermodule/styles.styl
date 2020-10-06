@@ -22,10 +22,9 @@ up-arrow-size = 15px
 Serious Stuff
 ==========================================================*/
 #footer
-    background-color footer-background
-    color white
+    background-color: #c2bfc6
 
-#footer-content
+#footer-contentk
     padding-top footer-content-padding-top
     padding-bottom footer-content-padding-bottom
     display: grid
@@ -35,12 +34,18 @@ Grid Blocks
 ===================================================*/    
 #contact-block.lit
     background-color alpha(grey, 0.4)
+    
 #contact-block
     transition background 0.4s
-    h1 
+    
+    h1
         margin-bottom 30px
+        color: #a61e1e
+        
+    
     #contact-address
         margin-top 30px
+        
 
 #social-media-block
     align-self: start
@@ -109,6 +114,7 @@ Grid Blocks
     align-self: end
     p
         line-height: 150%
+        
 
 /*=====================================================
 Responsive Parts
@@ -119,6 +125,7 @@ min-width-for-full-grid = ((2 * edge-column-min-width) + center-column-width + (
         grid-template-columns: auto
         grid-row-gap mobile-footer-block-gap
     #contact-block
+    font-family: "tesla"
         text-align: center
     #more-information-block
         text-align: center
