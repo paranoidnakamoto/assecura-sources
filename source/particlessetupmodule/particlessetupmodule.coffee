@@ -126,7 +126,7 @@ particlesParameters = {
 ############################################################
 particlessetupmodule.initialize = () ->
     log "particlessetupmodule.initialize"
-    particlesJS("particles-js", particlesParameters)
+    # particlesJS("particles-js", particlesParameters)
     log "we did it!"
     return
 

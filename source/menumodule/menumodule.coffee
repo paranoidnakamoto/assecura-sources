@@ -19,7 +19,7 @@ menumodule.initialize = () ->
 
 menumodule.slideIn = ->
     log "menumodule.slideIn"
-    menu.classList.add("active")
+    menu.classList.add("active") 
     return
 
 menumodule.slideOut = ->
