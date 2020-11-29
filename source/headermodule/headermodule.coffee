@@ -15,9 +15,9 @@ headermodule.initialize = () ->
     log "headermodule.initialize"
     menuModule = allModules.menumodule
 
-    openButton.addEventListener("click", openButtonClicked)
+    # openButton.addEventListener("click", openButtonClicked)
     
-    closeButton.addEventListener("click", closeButtonClicked)
+    # closeButton.addEventListener("click", closeButtonClicked)
     
     return
 

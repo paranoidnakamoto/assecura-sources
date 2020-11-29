@@ -2,12 +2,22 @@ body
     include ../svgiconmodule/svgicon.pug
     //- include ../menumodule/menu.pug
     include ../headermodule/header.pug
-    img#banner-image(src="/img/banner-image.jpg")
+    .glide
+        .glide__track(data-glide-el="track")
+            ul.glide__slides
+                img.glide__slide(src="/img/banner-image.jpg")
+                img.glide__slide(src="/img/banner-image2.jpg")
+                img.glide__slide(src="/img/banner-image3.jpg")
+    
+    //- img#banner-image(src="/img/banner-image.jpg")
     #content.max-content
     include ../footermodule/footer.pug
+    
     //- include ../upbuttonmodule/upbutton.pug
     
     //- #particles-js
+
+
 
     
 
