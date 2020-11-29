@@ -18,6 +18,8 @@ startup = ->
         type: 'slide'
         autoplay: 5000
         gap: 1
+        keyboard: 1
+        animationDuration: 800
         
     
          
