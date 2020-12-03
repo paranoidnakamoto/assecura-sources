@@ -4,11 +4,12 @@ body
     include ../headermodule/header.pug
     .glide
         .glide__track(data-glide-el="track")
-            ul.glide__slides
+            .glide__slides
                 img.glide__slide(src="/img/banner-image.jpg")
                 img.glide__slide(src="/img/banner-image2.jpg")
                 img.glide__slide(src="/img/banner-image3.jpg")
                 img.glide__slide(src="/img/banner-image4.jpg")
+    include ../servicesectionmodule/servicesection.pug
     
     //- img#banner-image(src="/img/banner-image.jpg")
     #content.max-content
