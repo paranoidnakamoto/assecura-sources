@@ -5,6 +5,7 @@ import headermodule from "./headermodule"
 import menumodule from "./menumodule"
 import navbarmodule from "./navbarmodule"
 import particlessetupmodule from "./particlessetupmodule"
+import servicesectionmodule from "./servicesectionmodule"
 import upbuttonmodule from "./upbuttonmodule"
 import vanillautilmodule from "./vanillautilmodule"
 
@@ -16,6 +17,7 @@ Modules = {
     menumodule,
     navbarmodule,
     particlessetupmodule,
+    servicesectionmodule,
     upbuttonmodule,
     vanillautilmodule,
 }
