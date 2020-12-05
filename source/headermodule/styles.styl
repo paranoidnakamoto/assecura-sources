@@ -1,6 +1,13 @@
 menu-button-size = 30px
+header-logo-size = 130px
+
+
 
 #header
+    position: fixed
+    top: 0 
+    left: 0 
+    z-index: 999
     border-bottom: solid 5px cd-red
     background-color: cd-gray
     width: 100%
@@ -10,9 +17,10 @@ menu-button-size = 30px
     justify-content: space-between
     align-items: center
     // flex-direction: row-reverse
+    transition top 0.3s
 
     h1
-        font-size: 130px
+        font-size: header-logo-size
         letter-spacing: 3px
         padding-left: 35px
     p
@@ -30,25 +38,28 @@ menu-button-size = 30px
         height: menu-button-size
         width:  menu-button-size
 
-// #header-title    
+// #header-title  
 
-#header.menu-active
+#header.collapse
+    top: -(header-logo-size - 5px) 
+    
+    // #header.menu-active
    
-    #close-button
-        display block
-    #open-button
-        display none
+    // #close-button
+    //     display block
+    // #open-button
+    //     display none
 
-#menu-button
-    @extends h1
+// #menu-button
+//     @extends h1
 
-#navbar
-    font-size: 9pt
-    font-family: x 
-    display: flex
-    a
-        padding-left 30px
-        padding-right: 30px
+// #navbar
+//     font-size: 9pt
+//     font-family: x 
+//     display: flex
+//     a
+//         padding-left 30px
+//         padding-right: 30px
 
 
 

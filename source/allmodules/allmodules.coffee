@@ -1,3 +1,4 @@
+import bannermodule from "./bannermodule"
 import configmodule from "./configmodule"
 import debugmodule from "./debugmodule"
 import footermodule from "./footermodule"
@@ -10,6 +11,7 @@ import upbuttonmodule from "./upbuttonmodule"
 import vanillautilmodule from "./vanillautilmodule"
 
 Modules = {
+    bannermodule,
     configmodule,
     debugmodule,
     footermodule,
