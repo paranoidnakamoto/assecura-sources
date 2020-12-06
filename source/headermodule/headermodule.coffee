@@ -27,7 +27,7 @@ onScroll = () ->
     log "onScroll"
     header.classList.add("collapse")
     offset = getOffsetScroll()
-    if offset<=180 then header.classList.remove("collapse")
+    if offset<=80 then header.classList.remove("collapse")
     return 
 
 
