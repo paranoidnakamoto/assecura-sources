@@ -10,7 +10,7 @@ print = (arg) -> console.log(arg)
 #endregion
 
 ############################################################
-particles = require("particles.js")
+#particles = require("particles.js")
 
 ############################################################
 particlesParameters = {
