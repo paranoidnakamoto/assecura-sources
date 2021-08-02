@@ -1,5 +1,5 @@
 module.exports={
     getDependencies:()=>{
-        return{"glidejs": "^2.1.0"}
+        return{"@glidejs/glide": "^3.4.1"}
     }
 }
